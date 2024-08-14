@@ -1,0 +1,174 @@
+.acamedia-unique-slider-wrapper{
+	text-align: center;
+}
+.select-testimonial-items{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.curlware-academia-select-slider{
+	background: #ABE8E6;
+	padding: 30px 0;
+}
+.curlware-academia-select-slider .title{
+	font-size: 20px;
+	line-height: 30px;
+}
+.selecte-wrap select{
+	appearance: none;
+	padding: 0;
+	background: transparent;
+	height: unset;
+	box-shadow: unset;
+	font-family: 'P22 Mackinac Pro';
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #1F2F2F;
+	border: none;
+	width: 320px;
+	padding: 15px 30px;
+}
+.carlware-selct-contain{
+	position: relative;
+	border: 1px solid #1F2F2F;
+	border-radius: 30px;
+}
+.select-icon{
+	position: absolute;
+	top: 50%;
+	right: 30px;
+    transform: translate(50%, -50%);
+}
+.academia-addon-slider{
+	padding: 40px 0;
+}
+.academia-addon-slider .slick-custom-arrow{
+	position: absolute;
+    top: -50px;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border: 1px solid #1F2F2F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: unset;
+}
+.category-title-container h3{
+	font-family: 'P22 Mackinac Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+	color: #1F2F2F;
+}
+.academia-addon-slider .slick-custom-arrow svg{
+	width: 17px;
+	height: 12px;
+}
+.academia-addon-slider .slick-prev{
+	left: 36%;
+	right: unset;
+}
+@media only screen and (max-width: 1300px){
+	.academia-addon-slider .slick-prev{
+		left: 25%;
+	}
+	.academia-addon-slider .slick-next{
+		right: 25% !important;
+	}
+}
+@media only screen and (max-width: 700px){
+	.academia-addon-slider .slick-custom-arrow{
+		top: -90px !important;
+	}
+	.category-title-container h3{
+		font-size: 25px;
+	}
+	.acamedia-unique-slider-wrapper .category-title-container{
+		padding-top: 100px;
+	}
+	.academia-addon-slider .slick-custom-arrow{
+		width: 40px !important;
+		height: 40px !important;
+	}
+	.select-testimonial-items {
+		flex-direction: column;
+	}
+}
+.academia-addon-slider .slick-next{
+	right: 36%;
+	left: unset;
+}
+.category-title-container{
+	padding-top:70px; 
+}
+.grid-item{
+	position: relative;
+	padding: 23px 0;
+}
+.grid-item::after{
+	content: "";
+	position: absolute;
+	width: 541px;
+	height: 0.5px;
+	background: #1f2f2f33;
+	top: 0px;
+	right: 50%;
+    transform: translate(50%, -50%);
+}
+@media only screen and (max-width: 1200px){
+	.grid-item::after{
+		width: 400px;
+	}
+}
+@media only screen and (max-width: 600px){
+	.grid-item::after{
+		width: 300px;
+	}
+}
+.grid-item .date span{
+	font-family: 'DM Sans';
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 50px;
+	text-align: center;
+	color: #1F2F2F;
+}
+.grid-item .name h4{
+	font-family: 'P22 Mackinac Pro';
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: #1F2F2F;
+}
+.grid-item .author-info{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap:20px;
+
+}
+.grid-item .author-info .author-bio h3{
+
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+	color: #1F2F2F;
+}
+.grid-item .author-info .author-name h4 {
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+	color: #1F2F2F;
+}
+
